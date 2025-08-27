@@ -1,33 +1,15 @@
 # Project Unicorn
 
 ---
-Title: "Unicorn Company Analysis — Unsupervised Machine Learning"
-subtitle: "Clustering, VC co-investment networks, and policy/investor insights"
-date: 2025-08-27
-lastmod: 2025-08-27
-draft: false
-summary: "Analyzed 500+ unicorns across 38 countries using Apriori association rules and clustering (PCA). Built interactive Power BI dashboards and R visualizations to surface investor alliances and company profiles for action by investors and policymakers."
-tags: ["Power BI", "R", "Python", "Apriori", "Clustering", "PCA", "World Bank", "CB Insights", "Crunchbase"]
-categories: ["Analytics", "Machine Learning", "Business Intelligence"]
-authors: ["Md Rajib Hossain"]
-cover:
-  image: "/images/unicorns/cover-dashboard.png"   # <- replace with your screenshot path
-  alt: "Overview dashboard of the unicorn analysis"
-  caption: "Overview of Unicorns: country, year joined, investors, and valuation"
-  relative: true
-resources:
-  - name: "overview"
-    src: "overview-dashboard.png"
-  - name: "country"
-    src: "country-aspect.png"
-  - name: "company"
-    src: "company-aspect.png"
-  - name: "industry"
-    src: "industry-aspect.png"
-  - name: "associations"
-    src: "investor-association.png"
-  - name: "clusters"
-    src: "usa-enterprise-tech-clusters.png"
+## Title: Unicorn Company Analysis — Unsupervised Machine Learning
+
+### Subtitle: Clustering, VC co-investment networks, and policy/investor insights
+
+Summary: Analyzed 500+ unicorns across 38 countries using Apriori association rules and clustering (PCA). Built interactive Power BI dashboards and R visualizations to surface investor alliances and company profiles for action by investors and policymakers.
+
+Tags: "Power BI", "R", "Python", "Apriori", "Clustering", "PCA", "World Bank", "CB Insights", "Crunchbase"
+
+Categories: "Analytics", "Machine Learning", "Business Intelligence"
 ---
 
 > **TL;DR**  
@@ -97,8 +79,8 @@ resources:
 ## 🧭 Dashboards & Visuals
 ![Overview Dashboard](overview-dashboard.png)
 ![Country Aspect — patents, education, ease of business, map](country-aspect.png)
-![Company Aspect — growth year, investors, valuation](company-aspect.png)
 ![Industry Aspect — distributions and drilldowns](industry-aspect.png)
+![Company Aspect — growth year, investors, valuation](company-aspect.png)
 ![Investor Association Network — Apriori rules](investor-association.png)
 ![Cluster Profiles — US Enterprise Tech](usa-enterprise-tech-clusters.png)
 
@@ -119,9 +101,9 @@ resources:
 ## ▶️ How to Reproduce (High-Level)
 1. Export unicorn & investor tables from CB Insights / Crunchbase.  
 2. Download World Bank indicators (2019) and normalize country names/codes.  
-3. Run cleaning & merge script (`/notebooks/Data_Cleaning_using_Python.ipynb`).  
-4. Generate association rules and cluster models in R (`/R/analysis.R`).  
-5. Load curated tables into Power BI (`/bi/Unicorns.pbix`) for dashboards.
+3. Run cleaning & merge script.  
+4. Generate association rules and cluster models in R.  
+5. Load curated tables into Power BI for dashboards.
 
 > This repo contains **screenshots** and **model scripts**. Some raw sources require vendor access (CBI/Crunchbase).
 
@@ -129,12 +111,12 @@ resources:
 
 ## 📜 License & Credits
 - Data © respective owners (CB Insights, Crunchbase, World Bank).  
-- Analysis & visuals © **Md Rajib Hossain**.  
+- Analysis & visuals:  **Md Rajib Hossain**.  
 - For academic presentation: BUSINFO 703, University of Auckland (Nov 2024).
 
 ---
 
 ## 📬 Contact
 - GitHub: **@GitRajib1230**  
-- LinkedIn: YOUR_LINKEDIN_URL  
-- Email: YOUR_EMAIL
+- LinkedIn: [rajib_linkedin](https://www.linkedin.com/in/md-rajib-hossain-01527a45/)
+- Email: mhos144@aucklanduni.ac.nz
