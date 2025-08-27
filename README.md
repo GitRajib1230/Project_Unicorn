@@ -95,12 +95,13 @@ resources:
 ---
 
 ## 🧭 Dashboards & Visuals
-{{< figure src="overview-dashboard.png" title="Overview Dashboard" >}}
-{{< figure src="country-aspect.png" title="Country Aspect — patents, education, ease of business, map" >}}
-{{< figure src="company-aspect.png" title="Company Aspect — growth year, investors, valuation" >}}
-{{< figure src="industry-aspect.png" title="Industry Aspect — distributions and drilldowns" >}}
-{{< figure src="investor-association.png" title="Investor Association Network — Apriori rules" >}}
-{{< figure src="usa-enterprise-tech-clusters.png" title="Cluster Profiles — US Enterprise Tech" >}}
+![Overview Dashboard](overview-dashboard.png)
+![Country Aspect — patents, education, ease of business, map](country-aspect.png)
+![Company Aspect — growth year, investors, valuation](company-aspect.png)
+![Industry Aspect — distributions and drilldowns](industry-aspect.png)
+![Investor Association Network — Apriori rules](investor-association.png)
+![Cluster Profiles — US Enterprise Tech](usa-enterprise-tech-clusters.png)
+
 
 > If your theme doesn’t support the `figure` shortcode, replace the blocks above with standard Markdown:  
 > `![Caption](overview-dashboard.png)`
